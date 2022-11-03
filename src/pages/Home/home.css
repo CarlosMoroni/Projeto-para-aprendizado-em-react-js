@@ -1,0 +1,22 @@
+body {
+    font-family: poppins, sans-serif;
+    font-weight: 400;
+}
+
+.texto-principal {
+    font-weight: 500;
+    font-size: 36px;
+    color: #47585B;
+    text-align: center;
+    margin-top: 52px;
+}
+
+.texto-principal div {
+    height: 0px;
+    width: 90px;
+    border: 2px solid #47585B;
+    margin: 0 auto;
+    margin-top: 81px;
+    margin-bottom: 52px;
+}
+

@@ -1,0 +1,39 @@
+.cidadesCard {
+    width: 256px;
+    height: 300px;
+    border-radius: 4px;
+    border: 0.5px solid;
+    border-color: #FFBA08;
+    display: inline-block;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.cidadesCard div{
+    padding-left: 24px;
+    display: block;
+    position: absolute;
+}
+
+.cidadesCard img {
+    max-width: 100%;
+}
+
+.cidadesCard label{
+    font-size: 20px;
+    font-weight: 600;
+    color: #47585B;
+    
+}
+
+.cidadesCard p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #9999;
+}
+
+.ellipse {
+    position: relative;
+    left: 180px;
+    bottom: 80px;
+}

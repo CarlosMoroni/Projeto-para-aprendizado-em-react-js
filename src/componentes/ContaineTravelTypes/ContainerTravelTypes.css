@@ -1,0 +1,6 @@
+.containerTravel{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 60px;
+}

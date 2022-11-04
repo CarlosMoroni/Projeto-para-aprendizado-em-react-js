@@ -3,7 +3,7 @@ import './head.css'
 const Head = () => {
     return (
         <div className="header">
-            <img src="/imagens/header.png" alt='world trip' />
+            <img src="/imagens/Header.png" alt='world trip' />
         </div>
     )
 }

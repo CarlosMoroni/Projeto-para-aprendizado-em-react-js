@@ -4,3 +4,22 @@
     justify-content: center;
     gap: 60px;
 }
+
+@media (max-width: 1200px) {
+    .containerTravel{
+        gap: 30px;
+    }
+}
+
+@media (max-width: 1050px){
+    .containerTravel {
+        gap: 20px;
+    }
+}
+
+@media (max-width: 900px){
+    .containerTravel{
+        flex-direction: column;
+        align-items: center;
+    }
+}

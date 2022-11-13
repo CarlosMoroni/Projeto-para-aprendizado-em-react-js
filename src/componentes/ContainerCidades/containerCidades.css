@@ -1,0 +1,32 @@
+.container-cidades h2{
+   text-align: start;
+   margin-top: 80px ;
+   margin-bottom: 40px;
+}   
+
+.itens {
+    width: 1160px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+@media (max-width: 1180px) {
+    .itens {
+        width: 900px;
+        justify-content: center;
+    }
+}
+@media (max-width: 950px) {
+    .itens {
+        width: 600px;
+        justify-content: center;
+    }
+}
+@media (max-width: 610px) {
+    .itens {
+        width: 300px;
+        justify-content: center;
+    }
+}

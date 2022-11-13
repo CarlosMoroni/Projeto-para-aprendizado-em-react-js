@@ -1,8 +1,27 @@
 .banner {
-    text-align: center;
     background-color: #fff;
+    display: flex;
+    justify-content: center;
 }
 
 .banner img {
     max-width: 100%; 
+}
+
+.banner p {
+    font-weight: 500;
+    font-size: 36px;
+    color: #47585B;
+    text-align: center;
+    display: none;
+}
+
+@media (max-width: 550px){
+    .banner img {
+        display: none;
+    }
+    .banner p {
+       display: inline;
+       width: 300px;
+    }
 }

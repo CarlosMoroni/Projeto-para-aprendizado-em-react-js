@@ -1,10 +1,12 @@
 import './head.css'
 
-const Head = () => {
+const Head = (props) => {
     return (
-        <div className="header">
-            <img src="/imagens/Header.png" alt='world trip' />
-        </div>
+        <head className='container'>
+            <div className="header">
+                <img src={props.img} alt='world trip' />
+            </div>
+        </head>
     )
 }
 

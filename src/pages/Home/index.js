@@ -8,7 +8,7 @@ import './home.css'
 function Home() {
     return (
       <div>
-          <Head />
+          <Head img='/imagens/header.svg' className='display'/>
           <Banner imagen='/imagens/Banner.png'/>
           <ContainerTravelTypes/>
           <div className='texto-principal'>
